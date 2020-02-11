@@ -1,0 +1,4 @@
+**/node_modules/*
+yarn/
+gitkraken/config
+coc/extensions/db.json
