@@ -1,0 +1,9 @@
+# Golang install (via gimme)
+unset GOOS;
+unset GOARCH;
+export GOROOT="${HOME}/.gimme/versions/go1.20.4.darwin.amd64";
+export PATH="${HOME}/.gimme/versions/go1.20.4.darwin.amd64/bin:${PATH}";
+go version >&2;
+
+export GIMME_ENV="${HOME}/.gimme/envs/go1.20.4.env"
+export GOBIN="/usr/local/bin"
