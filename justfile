@@ -3,3 +3,4 @@ help:
   
 init:
   ln -s ./* ~/.config/
+  brew install gimme
