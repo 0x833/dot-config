@@ -1,0 +1,4 @@
+# Zsh alias
+
+alias pj="~/Projects"
+alias docker="podman"
